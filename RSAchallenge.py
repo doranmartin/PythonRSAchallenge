@@ -61,10 +61,10 @@ decrypted_data = ''
 # with open('outputfile.txt', 'w') as decrypted_file:
 #     decrypted_file.write(decrypted_data)
 
-binary_data = open('challenge/1.bin').read()
+# binary_data = open('challenge/1.bin').read()
 
-base64_data = base64.b64decode(binary_data)
+# base64_data = base64.b64decode(binary_data)
 
-base64_string = base64_data.decode("utf-8")
+# base64_string = base64_data.decode("utf-8")
 
-print(base64_string)
+# print(base64_string)
